@@ -1,0 +1,47 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Node.js
+node_modules/
+
+# Supabase local state and environment-specific configuration
+supabase/.temp/
+supabase/config.toml
+
+# Personal data and database backups
+backups/
+exports/
+*.csv
+*.xlsx
+*.xls
+*.db
+*.sqlite
+*.sqlite3
+
+# One-time import scripts containing real data
+supabase/import_*_batch.sql
+
+# Temporary archives and working files
+*.zip
+app_backup*.py
+price_code_search.txt
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
